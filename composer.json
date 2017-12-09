@@ -1,0 +1,15 @@
+{
+    "name": "kimkit/vicuna",
+    "license": "MIT",
+    "require": {
+        "ext-swoole": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Vicuna\\": "src/"
+        }
+    },
+    "scripts": {
+        "cli": "Vicuna\\Cli::run"
+    }
+}
